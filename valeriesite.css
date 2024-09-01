@@ -87,7 +87,6 @@ header .navbar a {
     padding: 0.5rem 1rem;
     font-size: 25px;
     font-style: bold;
-    
     transition: color 0.3s ease;
     font-family: 'Poppins', sans-serif;
 }
@@ -261,39 +260,39 @@ header .icons svg:hover {
     flex-direction: column;
     align-items: center;
     padding: 4rem 2rem;
-    background: #F5F5F5; /* Light background color for the entire page */
+    background: #F5F5F5;
     min-height: 100vh;
 }
 
 .CONTACT .heading {
     font-size: 3rem;
-    color: #6D28D9; /* Dark text color for contrast */
+    color: #6D28D9;
     margin-bottom: 3rem;
     text-align: center;
-    background: #FFFFFF; /* Clean background for the heading */
+    background: #FFFFFF;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     width: 100%;
-    max-width: 900px; /* Limit the width of the heading */
+    max-width: 900px;
 }
 
 .CONTACT .contact-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #F1C6C6; /* Background color for the contact info section */
-    color: #FFFFFF; /* Text color for contrast */
+    background: #F1C6C6;
+    color: #FFFFFF;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px; /* Max width for the contact info section */
+    max-width: 600px;
     margin-bottom: 2rem;
 }
 
 .CONTACT .contact-info h3 {
-    font-size: 2.4rem; /* Larger font size for the contact info heading */
+    font-size: 2.4rem;
     color: #FFFFFF;
     margin-bottom: 1rem;
 }
@@ -304,11 +303,10 @@ header .icons svg:hover {
     line-height: 1.5;
 }
 
-/* Contact Form */
 .CONTACT .contact-form {
     width: 100%;
     max-width: 600px;
-    background: #FFE5E5; /* Light pink background for the form */
+    background: #FFE5E5;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -316,7 +314,7 @@ header .icons svg:hover {
 
 .CONTACT .contact-form h3 {
     font-size: 2.5rem;
-    color: #F1C6C6; /* Matching color for the form heading */
+    color: #F1C6C6;
     margin-bottom: 1rem;
 }
 
@@ -325,24 +323,24 @@ header .icons svg:hover {
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 1px solid #D4A5A5; /* Matching border color */
+    border: 1px solid #D4A5A5;
     margin-bottom: 1rem;
     font-size: 1.6rem;
-    color: #333; /* Dark text color for readability */
-    background: #FAFAFA; /* Light background for input fields */
+    color: #333;
+    background: #FAFAFA;
 }
 
 .CONTACT .contact-form input[type="submit"] {
-    background: #D4A5A5; /* Matching background color for the submit button */
-    color: #FFFFFF; /* Text color for contrast */
+    background: #D4A5A5;
+    color: #FFFFFF;
     cursor: pointer;
     border: none;
     font-size: 1.7rem;
-    padding: 1rem; /* Added padding for better appearance */
+    padding: 1rem;
     border-radius: 0.5rem;
     transition: background 0.3s, color 0.3s;
 }
 
 .CONTACT .contact-form input[type="submit"]:hover {
-    background: #F1C6C6; /* Lighter background on hover */
+    background: #F1C6C6;
 }
